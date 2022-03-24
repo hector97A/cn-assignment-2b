@@ -5,8 +5,8 @@ import gbnclient, gbnserver
 def main():
     port = int(input("Listen at port #"))
 
-    ipPortServer = ("127.0.0.1",port)
-    ipPortClient = ("127.0.1.1",8080)
+    ipPortServer = ("10.0.0.20",port)
+    ipPortClient = ("10.0.0.21",8080)
     addrFamily = socket.AF_INET
     sockType = socket.SOCK_DGRAM
 

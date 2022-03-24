@@ -6,7 +6,7 @@ def main():
     ip = input("Provide Server IP:")
     port = int(input("Provide Port#:"))
     ipPortServer = (ip,port)
-    ipPortClient = ('127.0.1.1',8080)
+    ipPortClient = ('10.0.0.21',8080)
     addrFamily = socket.AF_INET
     sockType = socket.SOCK_DGRAM
 
